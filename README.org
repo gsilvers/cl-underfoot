@@ -1,0 +1,23 @@
+* Cl-Underfoot 
+
+** Usage
+
+** Installation
+
+A reboot of my underfoot project in Common Lisp.
+
+** Quicklisp
+
+This project uses quicklisp to manage and install dependencies. It can be installed via most package managers see here [[https://lispcookbook.github.io/cl-cookbook/getting-started.html][quicklisp]]. On arch and manjaro the instructions will have a path error. The path will be wrong.
+
+#+begin_src common-lisp
+
+(load "/usr/share/common-lisp/source/quicklisp/quicklisp.lisp")
+(quicklisp-quickstart:install)
+
+;; Should be replaced by
+
+(load "/usr/share/quicklisp/quicklisp.lisp")
+(quicklisp-quickstart:install)
+
+#+end_src
