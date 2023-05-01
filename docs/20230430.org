@@ -1,0 +1,17 @@
+#+title: 20230430
+
+* Dev Notes 20230430
+
+Today I am just learning how to set up a project with quicklisp and common lisp. Following [[https://lispcookbook.github.io/cl-cookbook/getting-started.html][this doc]] which is ok. I'm noticing a gap when loading my project into a repl. It may be me using sly in emacs.
+
+Once you slow down and read it it seems like it pays to follow CL's convention of storing your projects in ~/common-lisp rather than within one main ~/Source like I generally do.
+
+Seems odd but ok similar to GO which I also recall being opinionated.
+
+It seems like you can mix the repl and files as advertised in most lisp books. I can basically edit a file and C-c C-k it and it is available in the running repl. I wonder if you had a running loop if you C-c C-k'd a file the loop was executing a function from if the loop would suddenly change.....
+
+Turns out you can. I'm starting to get the wholo Stahlman joke about python's repl not having read evaluate print.
+
+Tomorrow I will see about threads / multiprocessing in CL as well as TUI.
+
+[[https://github.com/naryl/cl-tui/tree/master/examples][TUI]]
